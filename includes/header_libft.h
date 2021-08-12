@@ -6,7 +6,7 @@
 /*   By: sylducam <sylducam@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/11 10:40:49 by sylducam          #+#    #+#             */
-/*   Updated: 2021/08/11 17:30:08 by sylducam         ###   ########.fr       */
+/*   Updated: 2021/08/12 18:49:40 by sylducam         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,6 +86,7 @@ t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
 					void (*del)(void *));
 int				get_next_line(int fd, char **line);
 int				is_tab_digit(char **tab);
+int				is_tab_nb(char **tab);
 int				count_lines(char **tab);
 int				longest_line(char **tab);
 int				str_isdigit(char *str);
