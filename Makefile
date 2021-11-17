@@ -44,6 +44,7 @@ SRCS	=		$(addprefix srcs/,\
 				ft_putnbr.c\
 				ft_putstr.c\
 				ft_putchar.c\
+				ft_swap.c\
 				get_next_line.c\
 			  	get_next_line_utils.c\
 				is_tab_digit.c\
